@@ -70,12 +70,12 @@ export default function Home() {
       <section className="hero section-shell" id="top">
         <div className="hero-main">
           <div className="hero-meta" aria-label="Professional status">
-            <span>QA Engineer</span>
-            <span>Timișoara · Romania</span>
+            {/* <span>QA Engineer</span> */}
+            {/* <span>Timișoara · Romania</span> */}
           </div>
-          <p className="hero-name">Mihaela Cioabă</p>
+          {/* <p className="hero-name">Mihaela Cioabă</p> */}
           <h1>
-            Quality before it becomes <em>a user problem.</em>
+            I find what others miss. <em>Before users do.</em>
           </h1>
           <div className="hero-intro">
             <p>
@@ -99,7 +99,7 @@ export default function Home() {
             <span className="availability"><i /> Open to opportunities</span>
           </div>
           <div className="primary-metric">
-            <strong>9+</strong>
+            <strong>7+</strong>
             <span>years of QA experience</span>
           </div>
           <div className="profile-facts">

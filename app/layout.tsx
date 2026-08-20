@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://mihaela-cioaba-cv.alinc2188.chatgpt.site"),
   title: "Mihaela Cioabă – QA Engineer",
   description:
-    "Mihaela Cioabă is an ISTQB-certified QA Engineer with 9+ years of experience across web, desktop and automotive products.",
+    "Mihaela Cioabă is an ISTQB-certified QA Engineer with 7+ years of experience across web, desktop and automotive products.",
   openGraph: {
     title: "Mihaela Cioabă – QA Engineer",
     description:
-      "ISTQB-certified QA Engineer with 9+ years of experience across web, desktop and automotive products.",
+      "ISTQB-certified QA Engineer with 7+ years of experience across web, desktop and automotive products.",
     type: "website",
     images: [
       {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mihaela Cioabă – QA Engineer",
     description:
-      "ISTQB-certified QA Engineer with 9+ years of experience across web, desktop and automotive products.",
+      "ISTQB-certified QA Engineer with 7+ years of experience across web, desktop and automotive products.",
     images: ["/og.png"],
   },
   icons: {
@@ -45,10 +45,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <span>MC</span>
               <div>
                 <strong>Mihaela Cioabă</strong>
-                <small>QA Engineer</small>
+                {/* <small>QA Engineer</small> */}
               </div>
             </a>
-            <p className="header-note">Manual QA · API · Playwright</p>
+            {/*<p className="header-note">Manual QA · API · Playwright</p>*/}
             <a className="header-contact" href="#contact">
               Contact <span aria-hidden="true">↘</span>
             </a>
